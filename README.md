@@ -9,34 +9,43 @@ Este é um projeto de API que permite realizar operações CRUD (Create, Read, U
 
 # Requisitos
 Node.js 
-MongoDB (banco de dados em nuvem ou local)
+MongoDB
 
 # Instruções
 Passos para Executar o Projeto Localmente
-1. Clone o Repositório:
-Clone este repositório em sua máquina:
+1. Clone o Repositório
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 2. Instale as Dependências
-Navegue até a pasta do projeto e instale as dependências:
+  Navegue até a pasta do projeto e instale as dependências:
+      cd nome-do-repositorio
+      - npm install
+      - npm init -y
+      - npm install express
+      - npm install prisma --save-dev
+      - npx prisma init
+      - npx prisma db push
+      - npm install @prisma/client
+      
+  Adcione type module no packagejson
 
-cd nome-do-repositorio
-npm install
+3.Crie uma conta no MongoDB
 
-3. Configure as Variáveis de Ambiente
+4. Configure as Variáveis de Ambiente
 Crie um arquivo .env na raiz do projeto com a URL do seu banco de dados MongoDB. Exemplo:
 
 
 MONGODB_URL="mongodb+srv://usuario:senha@cluster.mongodb.net/nome_do_banco?retryWrites=true&w=majority"
 
-4. Inicie o Servidor
+5. Inicie o Servidor
 Depois que o banco de dados estiver configurado, você pode iniciar o servidor localmente:
 
-npm run dev
+node --watch ./server.js
+
 A API estará disponível localmente em http://localhost:300.
 
-5. Teste os Endpoints
+6. Teste os Endpoints
 Use o Postman, cURL ou outra ferramenta para testar os endpoints da API.
 
 
