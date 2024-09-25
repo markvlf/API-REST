@@ -52,7 +52,7 @@ Use o Postman, cURL ou outra ferramenta para testar os endpoints da API.
 
 
 # Documentação no Postman
-Você pode acessar a documentação completa da API no Postman através do link para a documentação do Postman.
+Você pode acessar a documentação completa da API no Postman através do link para a documentação do Postman em view collection.
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/38542682-ff31df2c-4431-49bd-924b-2c30aec8136a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D38542682-ff31df2c-4431-49bd-924b-2c30aec8136a%26entityType%3Dcollection%26workspaceId%3Daa49e3f0-bc6f-45c2-bb42-1cdda3527807)
 
